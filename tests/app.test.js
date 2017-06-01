@@ -6,7 +6,7 @@ describe('App Vue Instance', function() {
     	expect(app.name).toEqual("John Doe");
   });
 
-  it('user should be able to change the name', function() {
+  it('should be able to change the name', function() {
   		app.changeName("Nezar Fadle")
     	expect(app.name).toEqual("Nezar Fadle");
   });
